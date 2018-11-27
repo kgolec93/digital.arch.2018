@@ -72,7 +72,7 @@ $(function() {
     $("#index-container").append("<p>"+indexContent+"</p>");
 
     //CONTACT CONTENT
-    const contactContent = "<h1><span style=\"font-family:Arkitech\">digital.arch</span></h1><br>Mgr inż. arch. Kamil Golec<br>tel: +48787787787<br>email: info@digitalarch.pl<br><br>";
+    const contactContent = "<h4>Mgr inż. arch. Kamil Golec<br>tel: +48787787787<br>email: info@digitalarch.pl</h4><br><br>";
     $("#contact-container").append("<p>"+contactContent+"</p>");
 
 

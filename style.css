@@ -268,3 +268,29 @@ aside ul {
 aside li {
     margin: 10px 0px;
 }
+
+input.msg-input {
+    min-height: 200px;
+}
+
+#contact-container h4 {
+    font-family: 'Open Sans Condensed' !important;
+}
+
+.content-container button {
+    width: 100%;
+    background-color: #ce5e42;
+    color: #f7f7f7;
+}
+
+.content-container button:hover {
+    background-color: #8d412e;
+}
+
+#contact-logo {
+    padding: 30px 30px !important;
+}
+
+#contact-logo div {
+    padding: 0px !important;
+}
