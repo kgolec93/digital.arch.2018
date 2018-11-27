@@ -2,18 +2,18 @@ $(function() {
 
     //Slider image list
     let sliderList = [
-    "slider_01", 
-    "slider_02", 
-    "slider_03",
-    "slider_04",
-    "slider_05"
+    "slider_01.jpg", 
+    "slider_02.jpg", 
+    "slider_03.jpg",
+    "slider_04.jpg",
+    "slider_05.jpg"
     ]
 
     let i = 0
 
     let faderDelay = 600; //fading effect duration
-    let faderTime = 10000; //fading time interval
-
+    let faderTime = 3000; //fading time interval
+    $(".photo-slider").css("background-image", "url(\"img/"+ sliderList[i] + "\")");
     //Image slider
     function slideOn() {
         $(".overlay-bk").animate({'opacity': 1}, faderDelay);
@@ -32,7 +32,7 @@ $(function() {
             i++
         }
         
-        $(".photo-slider").css("background-image", "url(\"img/"+ sliderList[i] + ".png\")");
+        $(".photo-slider").css("background-image", "url(\"img/"+ sliderList[i] + "\")");
         $(".overlay-bk").animate({'opacity': 0}, faderDelay);
         setTimeout(slideOn, faderTime);  
     }
