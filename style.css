@@ -93,11 +93,6 @@ header h1 {
     padding: 1px 1px !important;
 }
 
-.cell {
-    padding-top: calc(50% - 16px);
-    min-height: 300px;
-}
-
 .cell-btn {
     background-color: rgba(206,94,66, 0.8);
 }
@@ -179,9 +174,10 @@ main a:hover {
     background-color: rgba(0,0,0,0.0);
     color: #f7f7f7;
     text-align: center;
-    padding: 4px 0px;
+    padding: 100px 100px;
     margin: 0;
     font-size: 24px;
+    border: 1px dotted blue;
 }
 
 .cell-btn:hover {
