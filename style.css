@@ -269,8 +269,14 @@ aside li {
     margin: 10px 0px;
 }
 
-input.msg-input {
+textarea.msg-input {
     min-height: 200px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-style: italic;
+    font-weight: 300;
+    color: rgba(255,255,255,0.3) !important;
 }
 
 #contact-container h4 {
@@ -293,4 +299,10 @@ input.msg-input {
 
 #contact-logo div {
     padding: 0px !important;
+}
+
+input, textarea {
+    background-color: rgba(255,255,255,0.3) !important;
+    color: white !important;
+    font-weight: 300;
 }

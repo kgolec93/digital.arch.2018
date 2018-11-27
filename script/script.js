@@ -35,8 +35,8 @@ $(function() {
 
     let i = 0
 
-    let faderDelay = 600; //fading effect duration
-    let faderTime = 3000; //fading time interval
+    let faderDelay = 1000; //fading effect duration
+    let faderTime = 10000; //fading time interval
     $(".photo-slider").css("background-image", "url(\"img/"+ sliderList[i] + "\")");
     //Image slider
     function slideOn() {
