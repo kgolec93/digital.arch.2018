@@ -177,7 +177,6 @@ main a:hover {
     padding: 100px 100px;
     margin: 0;
     font-size: 24px;
-    border: 1px dotted blue;
 }
 
 .cell-btn:hover {
@@ -198,9 +197,9 @@ main a:hover {
     opacity: 0;
 }
 
-#text-container {
+.content-container {
     min-height: 300px;
-    padding: 40px;
+    padding: 30px 30px !important;
 }
 
 footer {
