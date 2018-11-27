@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+@font-face {
+	font-family: Arkitech;
+	src: url('font/Arkitech.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+
+html {
+    height:100%;
+}
+
+body {
+    height: 100%;
+}
+
+.fill {
+    background-color: #313131;
+    color: #f7f7f7;
+}
+
+header, footer {
+    background-color: #1d1d1e;
+    padding: 0px 16px;
+  }
+  
+header {
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    
+    z-index: 5;
+}
+
+header h1 {
+    font-family: 'Arkitech';
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+}
+ 
+        @media (max-width: 768px) {
+            header h1 {
+            text-align: center;
+            }
+        
+            header nav {
+            padding-bottom: 15px;
+            }
+        
+            header nav ul.justify-content-end {
+            justify-content: center !important;
+            }
+        }
+  
+  .nav-item {
+    font-size: 14px;
+    margin-left: 5px !important;
+    /* border: 1px dotted red; */
+  }
+  
+  .nav-item a {
+    color: #f7f7f7;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .nav-item .nav-link.active {
+    color: #ce5e42;
+  }
+  
+  .nav-item a:hover {
+    background-color: rgba(255,255,255,0.2);
+    color: #f7f7f7;
+  }
+
+  main {
+      
+    font-weight: 300;
+    /* background-color:rgba(255,255,255,0.2); */
+    background-color: #1d1d1e;
+    width: 1024px !important;
+    min-height: calc(100vh - 75px);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.4);
+    text-align: justify;
+  }
+
+.padding-1 {
+    padding: 1px 1px !important;
+}
+
+.cell {
+    padding-top: calc(50% - 16px);
+    min-height: 300px;
+}
+
+.cell-btn {
+    background-color: rgba(206,94,66, 0.8);
+}
+
+.photo-slider {
+    background-image: url("img/slider_01.png");
+    background-size: cover;
+    background-position: 50%;
+    height: 400px;
+    text-align: right;
+    position: relative;
+
+}
+
+/* .photo-slider .col-7 {
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 120px;
+    padding-right: 50px;
+} */
+
+
+.overlay-bk {
+    background-color: #111111;
+    width: 100%;
+    display: flex;
+    opacity: 1;
+}
+
+.photo-slider .row-banner {
+    /* background-color: rgba(24,24,24,0.8); */
+    background-color: rgba(161, 77, 56, 0.5);
+    padding: 8px 50px;
+    position: absolute;
+    width: 100%;
+    /* bottom: 60px; */
+    bottom: 0;
+}
+
+.photo-slider h1 {
+    font-family: 'Arkitech';
+    
+    line-height: 26px;
+    font-size: 28px;
+    margin: 0;
+    letter-spacing: 3px;
+}
+
+.photo-slider p {
+    /* color: #c1c1c1; */
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 14px;
+}
+
+.vbottom {
+    margin-top: 2px;
+    
+}
+
+main a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+main a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #1d1d1e;
+    text-decoration: none;
+}
+
+.cell p {
+    font-family: 'Open Sans Condensed';
+    background-color: rgba(0,0,0,0.0);
+    color: #f7f7f7;
+    text-align: center;
+    padding: 4px 0px;
+    margin: 0;
+    font-size: 24px;
+}
+
+.cell-btn:hover {
+    background-color: rgba(161, 77, 56, 0.8);
+}
+
+.thumbnail p {
+    opacity: 0;
+}
+
+.thumbnail:hover {
+    background-color: rgba(161, 77, 56, 0.5);
+    opacity: 1;
+}
+
+.thumbnail:hover p {
+    background-color: rgba(161, 77, 56, 0.5);
+    opacity: 0;
+}
+
+#text-container {
+    min-height: 300px;
+    padding: 40px;
+}
+
+footer {
+    font-weight: 300;
+    font-size: 12px;
+    padding: 6px 0px;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+#nav-01 {
+    background-image: url("img/nav_01.png");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#nav-02 {
+    background-image: url("img/nav_02.jpg");
+    background-size: cover;
+    background-position: 50%;
+}
+
+#nav-03 {
+    background-image: url("img/nav_03.png");
+    background-size: cover;
+    background-position: 50%;
+}
+
+.gal-img {
+    background-size: cover;
+    background-position: 50%;
+}
+
+aside {
+    position: fixed;
+    right: 11%;
+    transform: translateX(50%);
+    top: 256px;
+    height: 300px;
+    padding: 50px 0px;
+    opacity: 0.2;
+    transition: opacity 0.6s ease-out;
+}
+
+aside:hover {
+    opacity: 1;
+    transition: opacity 0.6s ease-in;
+}
+
+aside a {
+    color: inherit;
+}
+
+aside a:visited {
+    color: inherit;
+}
+
+aside a:hover {
+    color: #ce5e42;
+    text-decoration: none;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin: 10px 0px;
+}
