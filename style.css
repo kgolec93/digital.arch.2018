@@ -306,3 +306,11 @@ input, textarea {
     color: white !important;
     font-weight: 300;
 }
+
+#offer-container a {
+    color: #ce5e42;
+}
+
+#offer-container a:hover {
+    color: #8d412e;
+}

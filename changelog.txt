@@ -1,0 +1,39 @@
+TO DO LIST:
+
+<html>
+
+    <index.html>
+        Index content
+    </index.html>
+
+    <oferta.html>
+        jakiś obrazek
+    </oferta.html>
+
+    <portfolio.html>
+        sortowanie galerii wg kategorii
+        nowe obrazki
+        przycisk "do góry"
+        rozwijane menu boczne do kategorii
+    </portfolio.html>
+
+    <kontakt.html>
+        zrobić php do formularza kontaktowego
+        alerty JS do formularza
+    </kontakt.html>
+
+</html>
+
+---------------------------------------------
+
+
+#css {
+    Animowane hovery na stronie głównej
+    Animowane hovery menu
+    Animowane hovery galerii
+}
+
+
+---------------------------------------------
+
+Zrobione:
