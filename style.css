@@ -320,7 +320,7 @@ input, textarea {
     position: fixed;
     right: 50px;
     bottom: 50px;
-    width: 80px;
+    width: 50px;
     transform: translateX(-50%);
     transition: opacity 1s;
 }

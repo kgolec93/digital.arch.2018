@@ -48,7 +48,7 @@ let galCell
     while (j < galImg.length){
         NR = galImg[j].filename; 
         TITLE = galImg[j].title;
-        galCell = "<div class=\"col-4 padding-1\"><div id=\"" + NR + "\" class=\"gal-img\"><a data-lightbox=\"all\" data-title=\"" + TITLE + "\" href=\"gal/" + NR + ".jpg\"><div class=\"cell thumbnail\"><p>" + TITLE + "</p></div></a></div></div>";
+        galCell = "<div class=\"col-4 padding-1\"><div id=\"" + NR + "\" class=\"gal-img\"><a data-lightbox=\"all\" data-title=\"" + /*TITLE +*/ "\" href=\"gal/" + NR + ".jpg\"><div class=\"cell thumbnail\"><p>" + TITLE + "</p></div></a></div></div>";
         $("#gal-container").append(galCell);
         $("body").append("<style>#"+ NR +"{background-image: url(\"gal/" + NR + ".jpg\");}</style>"); 
         j++;
