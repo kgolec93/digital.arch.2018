@@ -314,3 +314,18 @@ input, textarea {
 #offer-container a:hover {
     color: #8d412e;
 }
+
+#up-arrow {
+    opacity: 0.1;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 80px;
+    transform: translateX(-50%);
+    transition: opacity 1s;
+}
+
+#up-arrow:hover {
+    opacity: 0.6;
+}
+
