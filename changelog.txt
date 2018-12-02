@@ -2,10 +2,6 @@ TO DO LIST:
 
 <html>
 
-    <index.html>
-        Index content
-    </index.html>
-
     <oferta.html>
         jakiś obrazek
     </oferta.html>
@@ -13,7 +9,6 @@ TO DO LIST:
     <portfolio.html>
         sortowanie galerii wg kategorii
         nowe obrazki
-        przycisk "do góry"
         rozwijane menu boczne do kategorii
     </portfolio.html>
 
@@ -37,3 +32,11 @@ TO DO LIST:
 ---------------------------------------------
 
 Zrobione:
+
+    <index.html>
+        Index content
+    </index.html>
+    
+    <portfolio.html>
+        przycisk "do góry"
+    </portfolio.html>
