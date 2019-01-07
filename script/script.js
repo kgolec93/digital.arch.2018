@@ -14,10 +14,14 @@ $(function() {
         for (j=0; j<menuList.length; j++) {
             menuList[j].link;
             if(window.location.href.indexOf(menuList[j].link) != -1) {
-                $("#main-menu").append("<li class=\"nav-item\"><a class=\"nav-link active\" href=\" "+ menuList[j].link + "\">" + menuList[j].name + "</a></li>");
+                $("#main-menu").append(
+                `<li class="nav-item"><a class="nav-link active" href="${menuList[j].link}"> ${menuList[j].name}</a></li>`
+                );
             }
             else {
-                $("#main-menu").append("<li class=\"nav-item\"><a class=\"nav-link\" href=\" "+ menuList[j].link + "\">" + menuList[j].name + "</a></li>");
+                $("#main-menu").append(
+                    `<li class="nav-item"><a class="nav-link" href="${menuList[j].link}">${menuList[j].name} </a></li>`
+                );
             }            
         }
     };
@@ -51,7 +55,7 @@ $(function() {
 
     let faderDelay = 1000; //fading effect duration
     let faderTime = 10000; //fading time interval
-    $(".photo-slider").css("background-image", "url(\"img/"+ sliderList[i] + "\")");
+    $(".photo-slider").css("background-image", `url("img/${sliderList[i]}")`);
     //Image slider
     function slideOn() {
         $(".overlay-bk").animate({'opacity': 1}, faderDelay);
@@ -70,7 +74,7 @@ $(function() {
             i++
         }
         
-        $(".photo-slider").css("background-image", "url(\"img/"+ sliderList[i] + "\")");
+        $(".photo-slider").css("background-image", `url("img/${sliderList[i]}")`);
         $(".overlay-bk").animate({'opacity': 0}, faderDelay);
         setTimeout(slideOn, faderTime);  
     }
