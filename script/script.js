@@ -84,19 +84,22 @@ $(function() {
     // $(".overlay-bk").animate({'opacity': 1}, 1000);
     
 
+    // Form validation    
+    
+
+
     //WEBSITE CONTENT
     //INDEX CONTENT
     const indexContent = "Od 5 lat zajmujemy się realizacją wszelkiego rodzaju wizualizacji trójwymiarowych, przede wszystkim architektury oraz wnętrz, a także wizualizacji produktu oraz animacji. Stale rozwijamy technologię naszej pracy, dzięki czemu stale możemy poprawiać jakość naszych realizacji, a także rozwijać naszą ofertę o kolejne możliwości. Zapraszamy do zapoznania się z portfolio naszych realizacji oraz z naszą bogatą ofertą.";
-    $("#index-container").append("<p>"+indexContent+"</p>");
+    $("#index-container").append(`<p> ${indexContent} </p>`);
 
     //CONTACT CONTENT
-    const contactContent = "<h4>Mgr inż. arch. Kamil Golec<br>tel: +48787787787<br>email: info@digitalarch.pl</h4><br><br>";
-    $("#contact-container").append("<p>"+contactContent+"</p>");
-
+    const contactContent = "<h4>Mgr inż. arch. Kamil Golec<br>tel: +48 783 648 000<br>email: digitalarch@digitalarch.pl</h4><br><br>";
+    $("#contact-container").append(`<p> ${contactContent} </p>`);
 
     //ABOUT US CONTENT
     const aboutContent = "Jesteśmy nowoczesnym studiem graficznym z Wrocławia, zajmującym się wszelkiego rodzaju wizualizacjami 3d. Pod szyldem digital.ARCH działamy od 2018 roku, lecz nasze korzenie sięgają znacznie dalej. Staramy się stale rozwijać system naszej pracy o najnowsze technologie, abyśmy mogli dostarczyć Państwu wizualizacje w jeszcze lepszej jakości. W naszych grafikach staramy się dążyć do osiągnięcia fotorealizmu, jednak nie boimy się również bardziej wymagających odrobiny artyzmu. Zapraszamy do zapoznania się i skorzystania z naszej oferty, nie tylko skierowanej do architektów oraz deweloperów!";
-    $("#contact-container").append("<p>"+aboutContent+"</p>");
+    $("#contact-container").append(`<p> ${aboutContent} </p>`);
 
     //OFFER CONTENT
     const offerContent = "<p>Oferujemy wykonanie wszelkiego rodzaju wizualizacji graficznych. Specjalizujemy się przede wszystkim w grafice przeznaczonej dla architektów oraz deweloperów, a także wykonujemy wizualizacje produktów oraz animacje<br><br>W naszej ofercie znajdują się m.in.:</p><ul><li>Wizualizacje deweloperskie</li><li>Wizualizacje konkursowe</li><li> Wizualizacje wnętrz</li><li>Wizualizacje VR 360</li><li> Wizualizacje interaktywne</li><li> Wizualizacje produktów</li><li>Projekty graficzne</li><li> Animacje 3d</li></ul><p>W celu uzyskania większej ilości informacji oraz pełnej oferty zapraszam do <a href=\"kontakt.html\">kontaktu</a></p>";
