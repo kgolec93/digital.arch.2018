@@ -12,11 +12,6 @@ TO DO LIST:
         rozwijane menu boczne do kategorii
     </portfolio.html>
 
-    <kontakt.html>
-        zrobić php do formularza kontaktowego
-        alerty JS do formularza
-    </kontakt.html>
-
 </html>
 
 ---------------------------------------------
@@ -40,3 +35,8 @@ Zrobione:
     <portfolio.html>
         przycisk "do góry"
     </portfolio.html>
+    
+    <kontakt.html>
+        zrobić php do formularza kontaktowego
+        alerty JS do formularza
+    </kontakt.html>
